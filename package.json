@@ -1,0 +1,25 @@
+{
+  "name": "scrape1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.12",
+    "@babel/preset-env": "^7.13.12"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "got": "^11.8.2",
+    "querystring": "^0.2.1"
+  }
+}
